@@ -1,0 +1,24 @@
+
+public class SectorCircleArea {
+
+	public static void main(String[] args) {
+
+		double n,r,pi,power;
+		
+		
+		
+		n = 4;
+		r = 5;
+		pi = (double) 22/7;
+		power = Math.pow(r, 2);
+		
+		double result = (double)n/360*pi*power;
+		
+		System.out.println("The area of your sector of your circle is"+result);
+		System.out.println("pi used = "+pi);
+		System.out.println("power used r^2 = "+power);
+		
+		
+	}
+
+}
